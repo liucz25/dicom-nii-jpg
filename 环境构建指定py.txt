@@ -1,0 +1,22 @@
+ virtualenv -p d:/code/python38/python.exe dlenv
+
+pip install keras
+
+Windows 下面pip 使用阿里源
+
+windows下，直接在user目录中创建一个pip目录，如：C:\Users\xx\pip，新建文件pip.ini，内容如下：
+
+[global]  
+trusted-host=mirrors.aliyun.com  
+index-url=http://mirrors.aliyun.com/pypi/simple/  
+
+
+pip install scikit-image
+pip install tensorflow
+
+u-net  ok
+
+pip install nibabel
+
+
+

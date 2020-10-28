@@ -1,0 +1,4 @@
+全部ok
+成品：nii2jpg。py
+
+用D:\code\deeplearn\dlenv这个环境
