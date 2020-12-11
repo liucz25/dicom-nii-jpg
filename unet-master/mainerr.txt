@@ -1,0 +1,16 @@
+(dlenv) λ python main.py
+2020-10-28 15:14:19.427594: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
+2020-10-28 15:14:19.444710: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2020-10-28 15:14:21.022339: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'nvcuda.dll'; dlerror: nvcuda.dll not found
+2020-10-28 15:14:21.037653: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-10-28 15:14:21.052851: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: LAPTOP-2HNJGF5D
+2020-10-28 15:14:21.069910: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: LAPTOP-2HNJGF5D
+2020-10-28 15:14:21.080883: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-10-28 15:14:21.121019: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x2576ddac740 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-10-28 15:14:21.140377: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From main.py:18: Model.fit_generator (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use Model.fit, which supports generators.
+Found 30 images belonging to 1 classes.
+Found 30 images belonging to 1 classes.

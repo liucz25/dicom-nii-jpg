@@ -1,7 +1,9 @@
 from model import *
 from data import *
+import time
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+print(time.asctime(time.localtime(time.time())))
 
 
 data_gen_args = dict(rotation_range=0.2,
@@ -20,3 +22,4 @@ model.fit_generator(myGene,steps_per_epoch=300,epochs=1,callbacks=[model_checkpo
 testGene = testGenerator("data/membrane/test")
 results = model.predict_generator(testGene,30,verbose=1)
 saveResult("data/membrane/test",results)
+print(time.asctime(time.localtime(time.time())))
